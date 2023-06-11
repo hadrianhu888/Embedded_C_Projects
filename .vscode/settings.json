@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c",
+        "*.cpp": "cpp",
+        "*.hpp": "c++",
+        "xutility": "c"
+    }
+}
