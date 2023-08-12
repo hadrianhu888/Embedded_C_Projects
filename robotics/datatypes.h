@@ -9,24 +9,22 @@
  *
  */
 
-#ifndef A7437BCA_10C6_4C27_99BC_32D6329BDACD
-#define A7437BCA_10C6_4C27_99BC_32D6329BDACD
-
 #ifndef DATATYPES_H_
 #define DATATYPES_H_
 
-#include <stdint.h>
+#include <assert.h>
+#include <ctype.h>
+#include <float.h>
+#include <iostream>
+#include <limits.h>
+#include <math.h>
 #include <stdbool.h>
 #include <stddef.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
-#include <assert.h>
-#include <float.h>
-#include <limits.h>
 #include <time.h>
-#include <ctype.h>
 
 typedef uint8_t u8;
 typedef uint16_t u16;
@@ -69,6 +67,3 @@ typedef char *c8_ptr_t;
 typedef char **c8_ptr_ptr_t;
 
 #endif /* DATATYPES_H_ */
-
-
-#endif /* A7437BCA_10C6_4C27_99BC_32D6329BDACD */
