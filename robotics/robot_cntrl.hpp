@@ -16,18 +16,31 @@
 
 #define PI 3.14159265358979323846
 
-typedef struct robot_cntrl {
+typedef struct robot_cntrl
+{
   float x, y, theta;
   float x_dot, y_dot, theta_dot;
 } robot_cntrl_t;
 
-typedef struct robot_t {
+typedef struct robot_t
+{
   float x, y, theta;
   float x_dot, y_dot, theta_dot;
-    float wheel_radius;
-    float wheel_base;
-    float wheel_circumference;
-    float wheel_speed;
+  float wheel_radius;
+  float wheel_base;
+  float wheel_circumference;
+  float wheel_speed;
+  float wheel_speed_rpm;
+  float wheel_speed_rps;
+  float wheel_speed_mps;
+  bool wheel_direction;
+  float wheel_distance;
+  float wheel_distance_m;
+  float wheel_distance_mm;
+  float move_forward;
+  float move_backward;
+  float turn_right;
+  float turn_left;
 } robot_t;
 
 void robot_cntrl_init(robot_cntrl_t *robot_cntrl);

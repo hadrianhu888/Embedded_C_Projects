@@ -37,6 +37,8 @@ public:
     // methods to get the robot's position
     double getPosX();
     double getPosY();
+    double getDeltaVector(double x, double y);
+    double getDeltaTheta(double x, double y);
 };
 
 #endif // ROBOT_HPP
