@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build C files",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "src/main.c",
+                "src/utils.c",
+                "-o",
+                "build/main_c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build C++ files",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "src/main.cpp",
+                "-o",
+                "build/main_cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

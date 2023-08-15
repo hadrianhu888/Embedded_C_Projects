@@ -39,6 +39,20 @@ public:
     double getPosY();
     double getDeltaVector(double x, double y);
     double getDeltaTheta(double x, double y);
+
+    // methods to set the robot's position
+    double getVector(void);
+    double getTheta(void);
+    void setPosX(double x);
+    void setPosY(double y);
+    void setPos(double x, double y);
+    void setVector(double x, double y);
+    void setTheta(double theta);
+    void setPosVectorTheta(double x, double y, double theta);
+    void setPosVector(double x, double y);
+
+    double getVectorX(void);
+    double getVectorY(void);
 };
 
 #endif // ROBOT_HPP

@@ -47,5 +47,10 @@ int main(void)
     cout << "Robot's current position: (" << robot.getPosX() << ", " << robot.getPosY() << ")" << endl;
     robot.getDeltaTheta(1, 1);
     cout << "Robot's current position: (" << robot.getPosX() << ", " << robot.getPosY() << ")" << endl;
+    // print vector and theta values
+    cout << "Robot's current vector: (" << robot.getVectorX() << ", " << robot.getVectorY() << ")" << endl;
+    cout << "Robot's current theta: " << robot.getTheta() << endl;
+    // print robot's current position
+    cout << "Robot's current position: (" << robot.getPosX() << ", " << robot.getPosY() << ")" << endl;
     return 0;
 }

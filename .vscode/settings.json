@@ -3,8 +3,10 @@
     "*.h": "c",
     "*.c": "c",
     "*.cpp": "cpp",
-    "*.hpp": "c++",
-    "iostream": "c"
+    "*.hpp": "cpp",
+    "*.py": "python",
+    "iostream": "c",
+    "ostream": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
